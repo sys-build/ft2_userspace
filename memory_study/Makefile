@@ -9,8 +9,8 @@ mem_main: mem_main.c
 	${CC} ${CFLAGS} -o mem_main mem_main.c
 
 install:
-	mkdir -p ../../out_memory
-	cp mem_main ../../out_memory
+	mkdir -p ../../out_ft2
+	cp mem_main ../../out_ft2
 
 run_android:
 	adb push mem_main /data/data
