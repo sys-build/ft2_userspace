@@ -7,6 +7,7 @@ static char line[4096];
 
 int main() {
 	printf("memory study main...\n");
+	printf("sizeof(unsigned long)=%ld\n", sizeof(unsigned long));
 
 	char *malloc_ptr = malloc(1024*1024);
 	FILE *fh = NULL;
